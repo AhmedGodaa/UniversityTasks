@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="264.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.guitask.HelloController">
+   <children>
+      <Button fx:id="btnSubmit" layoutX="43.0" layoutY="200.0" mnemonicParsing="false" onAction="#addProduct" prefHeight="26.0" prefWidth="518.0" text="Submit" />
+      <TextField fx:id="productNameFiled" cache="true" layoutX="40.0" layoutY="66.0" prefHeight="26.0" prefWidth="518.0" promptText="Product Name" />
+      <TextField fx:id="productQuantityFiled" cache="true" layoutX="40.0" layoutY="108.0" prefHeight="26.0" prefWidth="518.0" promptText="Product Quantity" />
+      <TextField fx:id="productPriceFiled" cache="true" layoutX="40.0" layoutY="148.0" prefHeight="26.0" prefWidth="518.0" promptText="Product Price" />
+   </children>
+</AnchorPane>
